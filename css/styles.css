@@ -20,5 +20,68 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "outfit", sans-serif;
+  background-color: #0d192c;
+  font-weight: 300;
+  color: #8bacd9;
+}
+.white {
+  color: white;
+}
+.card {
+  position: relative;
+  width: 327px;
+  height: 543px;
+  border-radius: 15px;
+  background-color: #15263f;
+  padding: 25px;
+  margin-top: 62px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 73px;
+  left: 25px;
+  width: 278px;
+  height: 1px;
+  background-color: #2e405a;
+}
+.card-description {
+  font-size: 18px;
+  font-weight: 300px;
+  margin-bottom: 0;
+}
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  bottom: 24px;
+}
+.icon {
+  margin-right: 6.48px;
+  width: auto;
+}
+.cube-image {
+  border-radius: 8px;
+}
+.photo {
+  margin-right: 16px;
+  width: 33px;
+  height: 33px;
+  border-radius: 15px;
+  border: white solid 1px;
+}
+.card-name {
+  color: #ffffff;
+}
+.price {
+  color: #00fff8;
+  font-weight: 600;
 }
