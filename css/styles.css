@@ -28,6 +28,11 @@ body {
 .white {
   color: white;
 }
+.container{
+  width: 375px;
+  height: 667px;
+  display: flex;
+}
 .card {
   position: relative;
   width: 327px;
@@ -70,7 +75,9 @@ body {
 }
 .cube-image {
   border-radius: 8px;
+  
 }
+
 .photo {
   margin-right: 16px;
   width: 33px;
