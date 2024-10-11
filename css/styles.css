@@ -28,11 +28,7 @@ body {
 .white {
   color: white;
 }
-.container{
-  width: 375px;
-  height: 667px;
-  display: flex;
-}
+
 .card {
   position: relative;
   width: 327px;
@@ -41,9 +37,10 @@ body {
   background-color: #15263f;
   padding: 25px;
   margin-top: 62px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .flex {
   display: flex;
   align-items: center;
@@ -73,9 +70,30 @@ body {
   margin-right: 6.48px;
   width: auto;
 }
+
 .cube-image {
   border-radius: 8px;
-  
+}
+
+.color-image {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00fff8;
+  width: 278px;
+  height: 278px;
+  border-radius: 8px;
+  opacity: 0;
+}
+@media (hover: hover) {
+  .color-image:hover {
+    opacity: 0.5;
+  }
+}
+.eye {
+  position: absolute;
+  width: 48px;
 }
 
 .photo {
@@ -88,7 +106,17 @@ body {
 .card-name {
   color: #ffffff;
 }
+
+.card-name:hover {
+  color: #00fff8;
+}
+
 .price {
   color: #00fff8;
   font-weight: 600;
+}
+@media (hover: hover) {
+  .white:hover {
+    color: #00fff8;
+  }
 }
